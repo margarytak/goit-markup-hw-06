@@ -808,11 +808,8 @@ img {
   transition: var(--transition-icon);
 }
 
+.modal-input:hover + .modal-icon,
 .modal-input:focus + .modal-icon {
-  fill: var(--accent-color);
-}
-
-.modal-input-wrap:hover .modal-icon {
   fill: var(--accent-color);
 }
 
