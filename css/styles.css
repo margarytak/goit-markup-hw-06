@@ -832,6 +832,10 @@ img {
   align-items: center;
 }
 
+.modal-check:focus + .checkbox-label > span {
+  border-color: var(--accent-color);
+}
+
 .modal-check:checked + .checkbox-label > span {
   background-color: var(--accent-color);
   border: none;
